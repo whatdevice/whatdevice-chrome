@@ -1,0 +1,25 @@
+{
+    "name": "WhatDevice",
+    "description": "View hardware and software information about your computer.",
+    "manifest_version": 2,
+    "version": "1.0",
+    "offline_enabled": true,
+    "app": {
+        "urls": [
+            "*://whatdevice.app/",
+            "*://lite.whatdevice.app/"
+        ],
+        "launch": {
+            "web_url": "http://whatdevice.app",
+            "container": "panel",
+            "height": 800,
+            "width": 1100
+        }
+    },
+    "icons": {
+        "128": "icon_128.png"
+    },
+    "permissions": [
+        "unlimitedStorage"
+    ]
+}
